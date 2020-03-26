@@ -14,9 +14,16 @@ Following suggestions come from [this post](https://medium.com/@utk.is.here/keep
 - Monitor the gradients along with the losses in the networks. 
 - G should receive large gradients early, while D's is not large. Later, the gradient of D should get stronger. 
 
+Following suggestions come from [this post](https://medium.com/intel-student-ambassadors/tips-on-training-your-gans-faster-and-achieve-better-results-9200354acaa5)
 
-## Authors
-- Soumith Chintala
-- Emily Denton
-- Martin Arjovsky
-- Michael Mathieu
+## 4: Upsampling vs Transposed Convolution 
+- Use upsampling instead of transposed convolution 
+- The kernel size of convolutions would better to be divided by stride 
+
+## 5: Loss functions 
+- WGAN is better than NSGAN. 
+- Have a try on RaLS. 
+
+
+
+
