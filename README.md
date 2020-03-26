@@ -7,7 +7,7 @@ Following suggestions come from [this post](https://medium.com/@utk.is.here/keep
 - Using less filters in G make the final generated images too blurry. 
 
 ## 2: Soft and Noisy labels 
-- For training discriminators, fake label: 0~0.1, real label: 0.9~1.0
+- For training discriminators, fake label: (0, 0.1), real label: (0.9, 1.0)
 - Randomly flip labels to penalize initial gradients. 
 
 ## 3: Look at the Gradients 
